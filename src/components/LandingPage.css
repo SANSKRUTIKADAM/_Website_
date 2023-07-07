@@ -1,0 +1,105 @@
+/* LandingPage.css */
+
+.landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .feature-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .benefit-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .benefit {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .benefit img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .cta-section {
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-section p {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
