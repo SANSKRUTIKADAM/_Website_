@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "../Login/Login.css"
 
-const Login = ({ handleLogin }) => {
+
+const Login = ({ handleLogin, handleRegisterPage }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -34,6 +35,7 @@ const Login = ({ handleLogin }) => {
         />
         <button type="submit">Login</button>
       </form>
+      <p>Don't have an account? <button onClick={handleRegisterPage}>Register</button></p>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "../Login/Register.css"
 
-const Register = ({ handleRegister }) => {
+const Register = ({ handleRegister, handleLoginPage }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [companyName, setCompanyName] = useState('');
@@ -43,6 +43,7 @@ const Register = ({ handleRegister }) => {
         />
         <button type="submit">Register</button>
       </form>
+      <p>Already have an account? <button onClick={handleLoginPage}>Login</button></p>
     </div>
   );
 };
